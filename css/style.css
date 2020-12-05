@@ -1,0 +1,137 @@
+/*navbar*/
+.navbar{
+    background-color: #30475e;
+}
+/*footer*/
+footer{
+    background-color: #30475e;
+}
+/*contact*/
+#contact{
+   padding:  50px;
+} 
+#contact p{
+    color: #e6e6ff;
+    font-size: 15px;
+    font-family: cursive;
+}
+#contact iframe{
+    border-radius: 10px;
+    width: 50%;
+    height: 50%;
+}
+.follow_us i{
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.send label , .info em , .info a{
+    color: #e6e6ff;
+    text-decoration-line: none;
+}
+.info a:hover{
+    color: #f3eac2;
+}
+.info i , .info em , .location iframe{
+    padding: 20px;
+}
+/*index*/
+/*fist*/
+.one-time{
+    width: 100%;
+    height: 300px;
+}
+.imgs{
+    height: 300px;
+    width: 100%
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.slick-dots li.slick-active button:before{
+color:blue;
+}
+
+.slick-dots li button:before {
+font-size:45px;
+color:green;
+}
+
+.slick-dots li button {
+}
+
+.slick-prev:before, .slick-next:before {
+content:"\f0a8";
+font-family: FontAwesome;
+font-size: 44px;
+color:yellow;
+background-color:red;
+}
+.slick-prev:before{
+content:"\f0a8";
+font-family: FontAwesome;
+}
+.slick-next:before {
+content:"\f0a9";
+font-family: FontAwesome;
+}
+/*second*/
+.carousel-item img{
+	height:600px;
+}
+
+
+.slick-dots li.slick-active button:before{
+	color:blue;
+}
+
+.slick-dots li button:before {
+	font-size:45px;
+	color:green;
+}
+
+.slick-dots li button {
+}
+
+
+.slick-prev:before, .slick-next:before {
+	content:"\f0a8";
+	font-family: FontAwesome;
+  font-size: 44px;
+  color:yellow;
+   background-color:red;
+}
+.slick-prev:before{
+	content:"\f0a8";
+	font-family: FontAwesome;
+}
+.slick-next:before {
+	content:"\f0a9";
+	font-family: FontAwesome;
+}
+.to-slick img{
+    width: 60%;
+    height: 35%;
+}
+/*login style*/
+.describtion {
+    height: 300px;
+    width: 50%;
+    float: left; 
+     background-repeat: no-repeat;
+    background-size:100% 100%;
+    text-align: center;
+    color: #30475e;
+    font-family: 'Roboto Slab', serif;
+}
+.describtion h1 , .describtion em{
+    position: relative;
+    top: 20%;
+}
+.form{
+    height: 100%;
+    width: 50%;
+    float: right;
+    padding-left: 30px;
+    color: #30475e;
+    display: inline;
+}
