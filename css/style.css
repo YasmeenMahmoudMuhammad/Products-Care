@@ -36,14 +36,26 @@ footer{
     padding: 20px;
 }
 /*index*/
+.i1 h1{
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 70px;
+    color: #30475e;
+    padding: 10px;
+    display: inline;
+    position: relative;
+    top: 65%;
+}
 /*fist*/
+.s1 ,.s2 {
+    height: 60%!important
+}
 .one-time{
     width: 100%;
     height: 300px;
 }
 .imgs{
     height: 300px;
-    width: 100%
+    width: 100%;
     background-repeat: no-repeat;
     background-size:100% 100%;
 }
@@ -52,86 +64,109 @@ color:blue;
 }
 
 .slick-dots li button:before {
-font-size:45px;
-color:green;
 }
 
 .slick-dots li button {
 }
 
 .slick-prev:before, .slick-next:before {
-content:"\f0a8";
-font-family: FontAwesome;
-font-size: 44px;
-color:yellow;
-background-color:red;
 }
 .slick-prev:before{
-content:"\f0a8";
-font-family: FontAwesome;
 }
 .slick-next:before {
-content:"\f0a9";
-font-family: FontAwesome;
 }
 /*second*/
 .carousel-item img{
-	height:600px;
+	height:150px;
 }
-
-
 .slick-dots li.slick-active button:before{
 	color:blue;
 }
 
+/*
 .slick-dots li button:before {
 	font-size:45px;
 	color:green;
 }
+*/
 
 .slick-dots li button {
 }
 
 
 .slick-prev:before, .slick-next:before {
-	content:"\f0a8";
-	font-family: FontAwesome;
-  font-size: 44px;
-  color:yellow;
-   background-color:red;
 }
 .slick-prev:before{
-	content:"\f0a8";
-	font-family: FontAwesome;
+
 }
 .slick-next:before {
-	content:"\f0a9";
-	font-family: FontAwesome;
 }
 .to-slick img{
     width: 60%;
-    height: 35%;
+    height: 25%;
 }
 /*login style*/
 .describtion {
     height: 300px;
     width: 50%;
     float: left; 
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    text-align: center;
+    color: #30475e;
+    font-family: 'Roboto Slab', serif;
+}
+.describtion h1{
+    position: relative;
+    top: 20%;
+    display: block;
+}
+.describtion em{
+   position: relative;
+    top: 30%;
+    display: block; 
+}
+.form h1{
+    color: #30475e;
+    font-family: 'Roboto Slab', serif;
+}
+.form{
+    height: 100%;
+    width: 50%;
+    float: right;
+    padding-left: 200px;
+    color: #30475e;
+    display: inline;
+}
+/*how to care style*/
+ .how_care  .lorial{
+    height: 500px;
+    width: 100%;
      background-repeat: no-repeat;
     background-size:100% 100%;
     text-align: center;
     color: #30475e;
     font-family: 'Roboto Slab', serif;
 }
-.describtion h1 , .describtion em{
+.how_care h1{
     position: relative;
-    top: 20%;
+    top: 50%;
+    left: 20%
 }
-.form{
-    height: 100%;
-    width: 50%;
-    float: right;
-    padding-left: 30px;
-    color: #30475e;
-    display: inline;
+
+/*l'orial paris*/
+.lorial{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    height: 100px;
+    width: 30%;
+     background-repeat: no-repeat;
+    background-size:100% 100%;
+ 
+}
+.car img{
+    width: 100px;
+    height: 100px;
 }

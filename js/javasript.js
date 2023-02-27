@@ -1,7 +1,5 @@
 $("#register-form input").wrap("<div class='form-group'></div>");
 		$("input:not([type='checkbox'],[type='submit'])").addClass("form-control");
-		/// //$(".form-control").parent().prev().css("border","2px solid red");
-		// //$(".form-control").parent().prev().prependTo(".form-group");// bad
 		$(".form-control").parent().prev().each(function(index,item){
 			//console.log(item);
 			$(this).addClass("form-control-label");
@@ -12,7 +10,7 @@ $("#register-form input").wrap("<div class='form-group'></div>");
 		checkContainer.next().appendTo(checkContainer);
 		$("#send input[type='submit']").addClass("text-right")
 		$("input[type='submit']").addClass("btn btn-primary");
-		$("#register-form input[type='submit']").parent().	addClass("text-right");
+		$("#register-form input[type='submit']").parent().addClass("text-right");
 		/** normal ajax **/
 
 	function getAJAX(url)
